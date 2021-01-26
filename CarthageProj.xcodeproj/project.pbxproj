@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6950060524A7830100DAB640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950060424A7830100DAB640 /* AppDelegate.m */; };
+		6950060824A7830100DAB640 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950060724A7830100DAB640 /* SceneDelegate.m */; };
+		6950060B24A7830100DAB640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950060A24A7830100DAB640 /* ViewController.m */; };
+		6950060E24A7830100DAB640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950060C24A7830100DAB640 /* Main.storyboard */; };
+		6950061024A7830200DAB640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6950060F24A7830200DAB640 /* Assets.xcassets */; };
+		6950061324A7830200DAB640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950061124A7830200DAB640 /* LaunchScreen.storyboard */; };
+		6950061624A7830200DAB640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950061524A7830200DAB640 /* main.m */; };
+		6950062024A7830200DAB640 /* CarthageProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950061F24A7830200DAB640 /* CarthageProjTests.m */; };
+		7A84C88C6FBFC3031D60D2AD /* libPods-CarthageProjTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1B65A23917BF26B46406FB /* libPods-CarthageProjTests.a */; };
+		984F1CC60EDABAD5610F6AD0 /* libPods-CarthageProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345DE06ED564B0936B955D0 /* libPods-CarthageProj.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6950061C24A7830200DAB640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695005F824A7830100DAB640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695005FF24A7830100DAB640;
+			remoteInfo = CarthageProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0345DE06ED564B0936B955D0 /* libPods-CarthageProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarthageProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950060024A7830100DAB640 /* CarthageProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950060324A7830100DAB640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6950060424A7830100DAB640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6950060624A7830100DAB640 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6950060724A7830100DAB640 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6950060924A7830100DAB640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6950060A24A7830100DAB640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6950060D24A7830100DAB640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6950060F24A7830200DAB640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6950061224A7830200DAB640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6950061424A7830200DAB640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6950061524A7830200DAB640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6950061B24A7830200DAB640 /* CarthageProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950061F24A7830200DAB640 /* CarthageProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageProjTests.m; sourceTree = "<group>"; };
+		6950062124A7830200DAB640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1B65A23917BF26B46406FB /* libPods-CarthageProjTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarthageProjTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864CF2ED72DE3CA5B4EDE4A3 /* Pods-CarthageProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageProj.debug.xcconfig"; path = "Target Support Files/Pods-CarthageProj/Pods-CarthageProj.debug.xcconfig"; sourceTree = "<group>"; };
+		C23F5E76785B5AE48614A520 /* Pods-CarthageProjTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageProjTests.release.xcconfig"; path = "Target Support Files/Pods-CarthageProjTests/Pods-CarthageProjTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2B12C4B463D70E7403EADEE /* Pods-CarthageProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageProjTests.debug.xcconfig"; path = "Target Support Files/Pods-CarthageProjTests/Pods-CarthageProjTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F09A78FB2FFEA65244BC8B13 /* Pods-CarthageProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarthageProj.release.xcconfig"; path = "Target Support Files/Pods-CarthageProj/Pods-CarthageProj.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		695005FD24A7830100DAB640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F1CC60EDABAD5610F6AD0 /* libPods-CarthageProj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950061824A7830200DAB640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A84C88C6FBFC3031D60D2AD /* libPods-CarthageProjTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B012A5FCDDC09D669CF443F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0345DE06ED564B0936B955D0 /* libPods-CarthageProj.a */,
+				6D1B65A23917BF26B46406FB /* libPods-CarthageProjTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		695005F724A7830100DAB640 = {
+			isa = PBXGroup;
+			children = (
+				6950060224A7830100DAB640 /* CarthageProj */,
+				6950061E24A7830200DAB640 /* CarthageProjTests */,
+				6950060124A7830100DAB640 /* Products */,
+				D5F6F700EBD02E48CB5DA527 /* Pods */,
+				0B012A5FCDDC09D669CF443F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6950060124A7830100DAB640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6950060024A7830100DAB640 /* CarthageProj.app */,
+				6950061B24A7830200DAB640 /* CarthageProjTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6950060224A7830100DAB640 /* CarthageProj */ = {
+			isa = PBXGroup;
+			children = (
+				6950060324A7830100DAB640 /* AppDelegate.h */,
+				6950060424A7830100DAB640 /* AppDelegate.m */,
+				6950060624A7830100DAB640 /* SceneDelegate.h */,
+				6950060724A7830100DAB640 /* SceneDelegate.m */,
+				6950060924A7830100DAB640 /* ViewController.h */,
+				6950060A24A7830100DAB640 /* ViewController.m */,
+				6950060C24A7830100DAB640 /* Main.storyboard */,
+				6950060F24A7830200DAB640 /* Assets.xcassets */,
+				6950061124A7830200DAB640 /* LaunchScreen.storyboard */,
+				6950061424A7830200DAB640 /* Info.plist */,
+				6950061524A7830200DAB640 /* main.m */,
+			);
+			path = CarthageProj;
+			sourceTree = "<group>";
+		};
+		6950061E24A7830200DAB640 /* CarthageProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				6950061F24A7830200DAB640 /* CarthageProjTests.m */,
+				6950062124A7830200DAB640 /* Info.plist */,
+			);
+			path = CarthageProjTests;
+			sourceTree = "<group>";
+		};
+		D5F6F700EBD02E48CB5DA527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				864CF2ED72DE3CA5B4EDE4A3 /* Pods-CarthageProj.debug.xcconfig */,
+				F09A78FB2FFEA65244BC8B13 /* Pods-CarthageProj.release.xcconfig */,
+				E2B12C4B463D70E7403EADEE /* Pods-CarthageProjTests.debug.xcconfig */,
+				C23F5E76785B5AE48614A520 /* Pods-CarthageProjTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		695005FF24A7830100DAB640 /* CarthageProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950062424A7830200DAB640 /* Build configuration list for PBXNativeTarget "CarthageProj" */;
+			buildPhases = (
+				3BD6D7D1A40ADE8812915971 /* [CP] Check Pods Manifest.lock */,
+				695005FC24A7830100DAB640 /* Sources */,
+				695005FD24A7830100DAB640 /* Frameworks */,
+				695005FE24A7830100DAB640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageProj;
+			productName = CarthageProj;
+			productReference = 6950060024A7830100DAB640 /* CarthageProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6950061A24A7830200DAB640 /* CarthageProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950062724A7830200DAB640 /* Build configuration list for PBXNativeTarget "CarthageProjTests" */;
+			buildPhases = (
+				BCCD32641BA86CF03779F233 /* [CP] Check Pods Manifest.lock */,
+				6950061724A7830200DAB640 /* Sources */,
+				6950061824A7830200DAB640 /* Frameworks */,
+				6950061924A7830200DAB640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6950061D24A7830200DAB640 /* PBXTargetDependency */,
+			);
+			name = CarthageProjTests;
+			productName = CarthageProjTests;
+			productReference = 6950061B24A7830200DAB640 /* CarthageProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		695005F824A7830100DAB640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Deft_Mikejing_iOS_coder;
+				TargetAttributes = {
+					695005FF24A7830100DAB640 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6950061A24A7830200DAB640 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 695005FF24A7830100DAB640;
+					};
+				};
+			};
+			buildConfigurationList = 695005FB24A7830100DAB640 /* Build configuration list for PBXProject "CarthageProj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 695005F724A7830100DAB640;
+			productRefGroup = 6950060124A7830100DAB640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				695005FF24A7830100DAB640 /* CarthageProj */,
+				6950061A24A7830200DAB640 /* CarthageProjTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		695005FE24A7830100DAB640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950061324A7830200DAB640 /* LaunchScreen.storyboard in Resources */,
+				6950061024A7830200DAB640 /* Assets.xcassets in Resources */,
+				6950060E24A7830100DAB640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950061924A7830200DAB640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD6D7D1A40ADE8812915971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarthageProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCCD32641BA86CF03779F233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarthageProjTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		695005FC24A7830100DAB640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950060B24A7830100DAB640 /* ViewController.m in Sources */,
+				6950060524A7830100DAB640 /* AppDelegate.m in Sources */,
+				6950061624A7830200DAB640 /* main.m in Sources */,
+				6950060824A7830100DAB640 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950061724A7830200DAB640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950062024A7830200DAB640 /* CarthageProjTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6950061D24A7830200DAB640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695005FF24A7830100DAB640 /* CarthageProj */;
+			targetProxy = 6950061C24A7830200DAB640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6950060C24A7830100DAB640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950060D24A7830100DAB640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6950061124A7830200DAB640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950061224A7830200DAB640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6950062224A7830200DAB640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6950062324A7830200DAB640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6950062524A7830200DAB640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864CF2ED72DE3CA5B4EDE4A3 /* Pods-CarthageProj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkj.CarthageProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6950062624A7830200DAB640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09A78FB2FFEA65244BC8B13 /* Pods-CarthageProj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkj.CarthageProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6950062824A7830200DAB640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B12C4B463D70E7403EADEE /* Pods-CarthageProjTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageProjTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkj.CarthageProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageProj.app/CarthageProj";
+			};
+			name = Debug;
+		};
+		6950062924A7830200DAB640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23F5E76785B5AE48614A520 /* Pods-CarthageProjTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarthageProjTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkj.CarthageProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageProj.app/CarthageProj";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		695005FB24A7830100DAB640 /* Build configuration list for PBXProject "CarthageProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950062224A7830200DAB640 /* Debug */,
+				6950062324A7830200DAB640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6950062424A7830200DAB640 /* Build configuration list for PBXNativeTarget "CarthageProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950062524A7830200DAB640 /* Debug */,
+				6950062624A7830200DAB640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6950062724A7830200DAB640 /* Build configuration list for PBXNativeTarget "CarthageProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950062824A7830200DAB640 /* Debug */,
+				6950062924A7830200DAB640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 695005F824A7830100DAB640 /* Project object */;
+}

@@ -1,0 +1,10 @@
+# git "http://git.code.oa.com/ibg-social/VOOV_QCloudCOSXML.git"
+
+# git "http://git.code.oa.com/ibg-social/VOOV_QCloudCOSXML.git"
+
+# github "Alamofire/Alamofire" ~> 4.7.2
+
+git "https://github.com/AFNetworking/AFNetworking.git"
+
+git "https://github.com/SnapKit/Masonry.git"
+
