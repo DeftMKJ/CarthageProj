@@ -8,3 +8,5 @@ git "https://github.com/AFNetworking/AFNetworking.git"
 
 git "https://github.com/SnapKit/Masonry.git"
 
+git "https://github.com/DeftMKJ/SupportCarthageSDK.git"
+
